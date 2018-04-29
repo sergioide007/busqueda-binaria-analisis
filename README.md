@@ -8,13 +8,13 @@ Es decir, tenemos:
 
 Si n = tamaño de lista
 
-Comparaciones	      Número aproximado de ítems restantes
+Comparaciones	 ->   Número aproximado de ítems restantes
 --------------------------------------------------
-  1	                n/2
-  2	                n/4
-  3	                n/8
-  ...	 
-  i	                n/2^i
+  1	           ->     n/2,
+  2	           ->     n/4,
+  3	           ->     n/8,
+  ...	         ->     ..., 
+  i	           ->     n/2^i
   
   Cuando dividimos la lista lo suficiente, tenemos al final solo un elemento, con ello el tamaño de la lista es igual a 1.
   
